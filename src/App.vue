@@ -1,19 +1,17 @@
 <template>
 	<HeaderBar />
-	<MainView />
+	<RouterView />
 	<FooterBar />
 </template>
 
 <script>
 import HeaderBar from '@/components/Header.vue';
 import FooterBar from '@/components/Footer.vue';
-import MainView from '@/views/MainView.vue';
 export default {
 	name: 'app',
 	components: {
 		FooterBar,
 		HeaderBar,
-		MainView,
 	},
 };
 </script>
